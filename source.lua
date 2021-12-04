@@ -1,5 +1,5 @@
 BeforeLoad = tick()
-print("poofware on top")
+print("raggedhook on top")
 getgenv().values = {}       
 local library = {}      
 local Drawing3d = loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/3D%20Drawing%20Api.lua"))()
@@ -53,7 +53,7 @@ local MainUIColor = COL3RGB(230, 230, 230)
 -- i see those pastes lying around
 																																																																												-- Bad 9672 & WetIDreamz 0001 & zeox 9999												
 -- hello bad ^^
--- modified by basedproperty#6070 and poofspirits (property#9949 new acc)
+-- modified by basedproperty#6070 and poofspirits#4748
 
 -- interpolation disable
 workspace.InterpolationThrottling = Enum.InterpolationThrottlingMode.Disabled
@@ -5736,7 +5736,7 @@ Frame.Size = UDim2.new(1,-20,1,-35)
 Frame.Position = UDim2.new(0,10,0,25)
 
 
-CreateHitElement("Loading Poofware..",Color3.new(1,1,0))
+CreateHitElement("Loading Raggedhook..",Color3.new(1,1,0))
 
 
 local griefsector = grief:Sector("griefing","Left")
@@ -7232,7 +7232,7 @@ end)
 LocalPlayer.Status.Kills:GetPropertyChangedSignal("Value"):Connect(function(current)      
 	if current == 0 then return end      
 	if values.misc.chat["kill say"].Toggle then      
-		game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(values.misc.chat["message"].Text ~= "" and values.misc.chat["message"].Text or "u just got pwned by poofware!", false, "Innocent", false, true)      
+		game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(values.misc.chat["message"].Text ~= "" and values.misc.chat["message"].Text or "u just got pwned by raggedhook!", false, "Innocent", false, true)      
 	end      
 end)      
 RayIgnore.ChildAdded:Connect(function(obj)      
