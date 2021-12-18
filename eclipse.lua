@@ -4627,7 +4627,7 @@ makefolder("eclipselua")
 
 RunService.RenderStepped:Wait()      
 
-local gui = library:New("raggedhook | beta                                                                          ")      
+local gui = library:New("eclipse.gg                                                                                 ")      
 local legit = gui:Tab("legit")      
 local rage = gui:Tab("rage")      
 local visuals = gui:Tab("visuals")      
