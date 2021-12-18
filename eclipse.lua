@@ -1,3 +1,9 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = "eclipse.gg"; -- 
+Text = "Succcesfully loaded!"; -- 
+Icon = "rbxassetid://7018229953"
+Duration = 7; -- 
+})
 BeforeLoad = tick()
 print("loaded")
 getgenv().values = {}       
