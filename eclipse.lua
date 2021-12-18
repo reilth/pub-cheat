@@ -1,11 +1,10 @@
+BeforeLoad = tick()
+print("loaded")
 game.StarterGui:SetCore("SendNotification", {
 Title = "eclipse.gg"; -- 
 Text = "Succcesfully loaded!"; -- 
-Icon = "rbxassetid://7018229953"
 Duration = 7; -- 
 })
-BeforeLoad = tick()
-print("loaded")
 getgenv().values = {}       
 local library = {}      
 local Drawing3d = loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/3D%20Drawing%20Api.lua"))()
@@ -18,9 +17,7 @@ local txt = game:GetService("TextService")
 local TweenService = game:GetService("TweenService")      
 function library:Tween(...) TweenService:Create(...):Play() end      
 local cfglocation = "eclipsecfg/"      
-makefolder("eclipsecfg")      
-
-
+makefolder("eclipsecfg") 
 
 -- caching      
 local Vec2 = Vector2.new      
@@ -4627,7 +4624,7 @@ makefolder("eclipselua")
 
 RunService.RenderStepped:Wait()      
 
-local gui = library:New("eclipse.gg                                                                                 ")      
+local gui = library:New("eclipse.gg                                                                                        ")      
 local legit = gui:Tab("legit")      
 local rage = gui:Tab("rage")      
 local visuals = gui:Tab("visuals")      
