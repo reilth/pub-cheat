@@ -49,7 +49,7 @@
 		Players.Name = "Players"
 		Players.Parent = Container
 		Players.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		Players.BackgroundTransparency = 0.000
+		Players.BackgroundTransparency = 1.000
 		Players.BorderColor3 = Color3.fromRGB(0, 0, 0) 
 		Players.BorderSizePixel = 1
 		Players.Position = UDim2.new(0, 0, 1, 0)
