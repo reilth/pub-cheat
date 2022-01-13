@@ -47,10 +47,10 @@
 		Players.Name = "Players"
 		Players.Parent = Container
 		Players.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		Players.BackgroundTransparency = 1.000
+		Players.BackgroundTransparency = 0.000
 		Players.BorderColor3 = Color3.fromRGB(0, 0, 0) 
 		Players.BorderSizePixel = 1
-		Players.Position = UDim2.new(0.0196080022, 0, 1.44285719, 0)
+		Players.Position = UDim2.new(0, 0, 1, 0)
 		Players.Size = UDim2.new(0, 200, 0, 20)
 		Players.ZIndex = 4
 		Players.Font = Enum.Font.SourceSans
