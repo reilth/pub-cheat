@@ -35,6 +35,8 @@
 		Text.Name = "Text"
 		Text.Parent = Container
 		Text.BackgroundTransparency = 1.000
+		Text.BorderColor3 = Color3.fromRGB(40, 40, 40)
+		Text.BorderSizePixel = 1
 		Text.Position = UDim2.new(0, 0, 0, -3)
 		Text.Size = UDim2.new(0, 200, 0, 20)
 		Text.ZIndex = 4
