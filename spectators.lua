@@ -60,7 +60,7 @@
 		Background.Name = "Background"
 		Background.Parent = Spectators
 		Background.BackgroundColor3 = Color3.fromRGB(0, 0, 0, 0)
-		Background.BorderColor3 = Color3.fromRGB(25, 25 , 25)
+		Background.BorderColor3 = Color3.fromRGB(40, 40, 40)
 		Background.BorderSizePixel = 1
 		Background.Size = UDim2.new(0, 200, 0, 20)
 
