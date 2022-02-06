@@ -17,7 +17,7 @@
 		Spectators.Parent = SpectatorsList
 		Spectators.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		Spectators.BackgroundTransparency = 1.000
-		Spectators.BorderColor3 = Color3.fromRGB(30, 115, 255)
+		Spectators.BorderColor3 = Color3.fromRGB(200, 0, 0)
 		Spectators.Position = UDim2.new(0, 1, 0.400000006, 49)
 		Spectators.Size = UDim2.new(0, 200, 0, 20)
 
@@ -35,12 +35,10 @@
 		Text.Name = "Text"
 		Text.Parent = Container
 		Text.BackgroundTransparency = 1.000
-		Text.BorderColor3 = Color3.fromRGB(40, 40, 40)
-		Text.BorderSizePixel = 1
 		Text.Position = UDim2.new(0, 0, 0, -3)
 		Text.Size = UDim2.new(0, 200, 0, 20)
 		Text.ZIndex = 4
-		Text.Font = Enum.Font.SourceSansSemibold
+		Text.Font = Enum.Font.Code
 		Text.Text = "spectators"
 		Text.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Text.TextSize = 14
@@ -48,15 +46,12 @@
 
 		Players.Name = "Players"
 		Players.Parent = Container
-		Players.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		Players.BackgroundTransparency = 1.000
-		Players.BorderColor3 = Color3.fromRGB(0, 0, 0) 
-		Players.BorderSizePixel = 1
-		Players.Position = UDim2.new(0, 0, 1, 0)
+		Players.Position = UDim2.new(0.0196080022, 0, 1.44285719, 0)
 		Players.Size = UDim2.new(0, 200, 0, 20)
 		Players.ZIndex = 4
-		Players.Font = Enum.Font.SourceSans
-		Players.Text = "loading"
+		Players.Font = Enum.Font.Code
+		Players.Text = "ur mom's name"
 		Players.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Players.TextSize = 14.000
 		Players.TextStrokeTransparency = 0.000
@@ -64,9 +59,8 @@
 
 		Background.Name = "Background"
 		Background.Parent = Spectators
-		Background.BackgroundTransparency = 1
 		Background.BackgroundColor3 = Color3.fromRGB(0, 0, 0, 0)
-		Background.BorderColor3 = Color3.fromRGB(40, 40, 40)
+		Background.BorderColor3 = Color3.fromRGB(200, 0, 0)
 		Background.BorderSizePixel = 1
 		Background.Size = UDim2.new(0, 200, 0, 20)
 
